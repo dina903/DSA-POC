@@ -1,10 +1,30 @@
 ﻿@{
     ViewBag.Title = "DSA";
+    //var db = Database.Open("CloudInventory");
+    //var selectQueryString = "SELECT * FROM Product ORDER BY Name";
 }
 
 <div class="jumbotron">
     <h1>DSA Inventory</h1>
     <p class="lead">Select One of the Following</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg"> Display List </a></p>
+    <p><a href="#" class="btn btn-primary btn-lg"> Display List </a></p>
+</div>
+<div class="listBody">
+    <!-- <table>
+        <tr>
+            <th>No.</th>
+            <th>Instance Name</th>
+            <th>Date Launched</th>
+            <th>Price</th>
+        </tr> 
+        @@foreach (var row in db.Query(selectQueryString))
+       {
+            <tr>
+                <td>@@row.No</td>
+                <td>@@row.Name</td>
+                <td>@@row.DateLaunched</td>
+            </tr>
+        }
+    </table>-->
 </div>
 
